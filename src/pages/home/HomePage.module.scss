@@ -1,0 +1,17 @@
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.page__col {
+  padding: 20px;
+  width: calc(50% - 20px);
+  @media (max-width: 1024px) { 
+    width: 100%;
+  }
+}
+
+.page__my-links {
+  margin-top: 40px;
+}

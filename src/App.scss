@@ -1,0 +1,30 @@
+
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    color: #333;
+    margin: 0px;
+    font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.layout {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  .layout__header {
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    border: 1px solid #cbcbcb;
+    .layout__title {
+      font-size: 36px;
+      font-weight: bold;
+    }
+  }
+  .layout__content {}
+}

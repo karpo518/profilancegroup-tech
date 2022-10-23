@@ -1,0 +1,37 @@
+.c__pagination  {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.c__pagination li {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  :last-child {
+    margin-right: 0px;
+  }
+}
+
+.c__pagination .rc-pagination-item-active {
+  font-weight: bold;
+}
+
+.c__pagination .rc-pagination-prev,
+.c__pagination .rc-pagination-next {
+  display: none;
+}
+
+.c__pagination .rc-pagination-item a {
+  display: block;
+  padding: 5px 10px;
+  background-color: #f3f3f3;
+  border: 1px solid #cbcbcb;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.c__pagination-jumper {
+  display: block;
+  cursor: pointer;
+}
+
