@@ -12,16 +12,26 @@
 
 .form__items {
   display: flex;
-  align-items: top;
+  flex-wrap: wrap;
   justify-content: space-between;
   column-gap: 20px;
+  row-gap: 10px;
 }
 
 .form__item-left {
-  flex: 1 1 100%;
+  flex: 1 0 min-content;
+
+  @media (max-width: 480px) {
+    flex-basis: 100%;
+  }
 }
 .form__item-right {
-  flex: 0 0 auto;
+  flex: 0 0 min-content;
+
+  @media (max-width: 480px) {
+    flex-basis: 100%;
+    flex-grow: 1;
+  }
 }
 
 .form__input {
@@ -33,6 +43,9 @@
 
 .form__input-submit {
   cursor: pointer;
+  @media (max-width: 480px) {
+    width: 100%;
+  }
 }
 
 .form__input-text {
