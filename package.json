@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "/profilancegroup-tech/",
   "dependencies": {
     "@apollo/client": "^3.7.0",
     "@reduxjs/toolkit": "^1.8.6",
